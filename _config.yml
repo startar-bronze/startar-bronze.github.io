@@ -1,4 +1,5 @@
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+title: Startar Bronze token
 description: Startar bronze. A cryptocurrency.

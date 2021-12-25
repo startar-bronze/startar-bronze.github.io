@@ -1,4 +1,4 @@
-## Startar bronze
+## Startar Bronze token
 
 STARTAR BRONZE (STRB) is a cryptocurrency managed by Groupe Business Therapie.
 You can purchase it using your credit/debit card or your paypal account.
