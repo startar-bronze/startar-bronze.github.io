@@ -3,5 +3,3 @@ plugins:
 - jekyll-remote-theme
 title: Startar Bronze token
 description: Startar bronze. A cryptocurrency.
-
-theme: jekyll-theme-cayman
