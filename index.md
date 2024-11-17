@@ -65,3 +65,35 @@ See us on [Bscan](https://bscscan.com/token/0x550a5e9c90cc238dd1afd88a0680b4feeb
 Email: contact@startarcoins.com 
 
 <img src="https://github.com/user-attachments/assets/73dc2665-0f6c-404b-b555-3c4d827f23ce" alt="STRB LOGO" height="100" width="100">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .trust-badge {
+            width: 200px;
+            height: 200px;
+            background-color: gold;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            text-align: center;
+            box-shadow: 0 0 10px gold;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="trust-badge">
+    100% Trust Us <br> Secure Website<br> STRB
+</div>
+
+</body>
+</html>
