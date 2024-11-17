@@ -16,7 +16,55 @@ StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the START
 
 **STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6**
 
-{"is_ok":true,"result":{"updated":"17.09.2024 18:42 UTC","at_first24":"0.0000005935573","last":"0.00000059361788","quoteVolume":"12589.414411514471572","high24hr":"0.0000005936272","isFrozen":0,"highestBid":"0.000000593534","percentChange":"0.01%","pair":"STRB@USDT","low24hr":"0.00000059353866","avg":"0.000000593583723035483424","lowestAsk":"0.0000005936000000000000001","id":9872258,"baseVolume":"21209163801.08"}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<canvas id="tradingChart" width="400" height="200"></canvas>
+
+<script>
+    async function fetchTradingData() {
+        try {
+            const response = await fetch('https://tokpie.com/api_ticker/?market=STRB@USDT');
+            const data = await response.json();
+            const result = data.result;
+
+            const ctx = document.getElementById('tradingChart').getContext('2d');
+            new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: ['Updated', 'High 24hr', 'Low 24hr', 'Last'],
+                    datasets: [{
+                        label: 'STRB@USDT',
+                        data: [parseFloat(result.last), parseFloat(result.high24hr), parseFloat(result.low24hr), parseFloat(result.last)],
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        } catch (error) {
+            console.error('Erreur lors de la récupération des données :', error);
+        }
+    }
+
+    fetchTradingData();
+</script>
+
+</body>
+</html>
 
 <span style="color:green;">You can purchase on the link below or click on buy button.</span>
 
