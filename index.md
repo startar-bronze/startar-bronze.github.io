@@ -66,7 +66,7 @@ Email: contact@startarcoins.com
 
 <img src="https://github.com/user-attachments/assets/73dc2665-0f6c-404b-b555-3c4d827f23ce" alt="STRB LOGO" height="100" width="100">
 
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
