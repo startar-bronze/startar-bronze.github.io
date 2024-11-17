@@ -16,56 +16,7 @@ StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the START
 
 **STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6**
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trading Chart</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
-
-<canvas id="tradingChart" width="400" height="200"></canvas>
-
-<script>
-    async function fetchTradingData() {
-        try {
-            const response = await fetch('https://tokpie.com/api_ticker/?market=STRB@USDT');
-            const data = await response.json();
-            const result = data.result;
-
-            const ctx = document.getElementById('tradingChart').getContext('2d');
-            new Chart(ctx, {
-                type: 'line',
-                data: {
-                    labels: ['Updated', 'High 24hr', 'Low 24hr', 'Last'],
-                    datasets: [{
-                        label: 'STRB@USDT',
-                        data: [parseFloat(result.last), parseFloat(result.high24hr), parseFloat(result.low24hr), parseFloat(result.last)],
-                        borderColor: 'rgba(75, 192, 192, 1)',
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            });
-        } catch (error) {
-            console.error('Erreur lors de la récupération des données :', error);
-        }
-    }
-
-    fetchTradingData();
-</script>
-
-</body>
-</html>
-
+<iframe width="100%" height="1000" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/bnb-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?theme=light&padding=16&chart=1&trades=1"></iframe>
 <span style="color:green;">You can purchase on the link below or click on buy button.</span>
 
 **[STRB Bscan address contract](https://bscscan.com/address/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxplleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug#readContract)**
