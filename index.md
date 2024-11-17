@@ -13,6 +13,8 @@ STRB Bscan adress contract, https://bscscan.com/address/0x550a5e9c90cc238dd1afd8
 How to add STRB on your wallet like METAMASK, 
 Follow this video link https://www.youtube.com/watch?v=LMwK0KNMLu8
 
+<iframe width=480 height="640" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=light&padding=16&chainId=56&inputAddress=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&outputAddress=0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6"></iframe>
+
 ## Other links:
 
 Get StartarBronze Prediction at this [link](https://coincodex.com/crypto/startar-bronze/price-prediction/?fbclid=IwY2xjawGmwrpleHRuA2FlbQIxMQABHXgyFwN3tl0COq_jOXieyPQW0f8ihKsez3O08KKKy9M7dSsoy7_Qk9uc_Q_aem_eQWwS1eYJJ6BcmdmqBBjMA)
