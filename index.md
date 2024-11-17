@@ -1,17 +1,26 @@
 ## Startar Bronze (STRB)
 
+<div id="google_translate_element"></div>
+   <script type="text/javascript">
+     function googleTranslateElementInit() {
+       new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr'}, 'google_translate_element');
+     }
+   </script>
+   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   
 STARTAR BRONZE (STRB) is a BSCAN (BEP20) cryptocurrency managed by **Groupe Business Therapie** company.
 
-StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the STARTAR (STRR) token.
+How to add STRB to your wallet like METAMASK, follow this <a href="https://www.youtube.com/watch?v=LMwK0KNMLu8" style="color:blue;">video link</a>.
 
-You can purchase on the link below or click on buy button.
+StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the STARTAR (STRR is under development) token.
 
 **STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6**
 
-STRB Bscan adress contract, https://bscscan.com/address/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxplleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug#readContract
+<iframe width="100%" height="1000" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/bnb-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?theme=light&padding=16&chart=1&trades=1"></iframe>
 
-How to add STRB on your wallet like METAMASK, 
-Follow this video link https://www.youtube.com/watch?v=LMwK0KNMLu8
+<span style="color:green;">You can purchase on the link below or click on buy button.</span>
+
+**[STRB Bscan address contract](https://bscscan.com/address/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxplleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug#readContract)**
 
 <iframe width=480 height="640" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=light&padding=16&chainId=56&inputAddress=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&outputAddress=0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6"></iframe>
 
