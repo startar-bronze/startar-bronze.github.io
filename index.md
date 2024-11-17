@@ -16,7 +16,7 @@ StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the START
 
 **STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6**
 
-<iframe width="100%" height="1000" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/bnb-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?theme=light&padding=16&chart=1&trades=1"></iframe>
+{"is_ok":true,"result":{"updated":"17.09.2024 18:42 UTC","at_first24":"0.0000005935573","last":"0.00000059361788","quoteVolume":"12589.414411514471572","high24hr":"0.0000005936272","isFrozen":0,"highestBid":"0.000000593534","percentChange":"0.01%","pair":"STRB@USDT","low24hr":"0.00000059353866","avg":"0.000000593583723035483424","lowestAsk":"0.0000005936000000000000001","id":9872258,"baseVolume":"21209163801.08"}}
 
 <span style="color:green;">You can purchase on the link below or click on buy button.</span>
 
