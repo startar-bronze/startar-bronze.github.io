@@ -27,6 +27,8 @@ Read STRB Legal opinion at this [link](https://drive.google.com/file/d/1_zCA8Il_
 
 See us on [Bscan](https://bscscan.com/token/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxOpleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oHG08ZayA34?autoplay=1&loop=1&playlist=oHG08ZayA34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## They Talking about us:
 
 [Coin market Cap (CMC)](https://coinmarketcap.com/dexscan/bsc/0xec84acc430f9628d8993644880fe2b828fc196fd/?fbclid=IwY2xjawGmwyxleHRuA2FlbQIxMAABHfY-JRmYwFUQu4hbGd9gWNUAWrjyMFPvw9EpBW8hzOP9kaJw1gmI4YfQ2A_aem_ttmhOqi_CNjDAz7rsLk5Ng)
