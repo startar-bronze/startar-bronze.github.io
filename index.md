@@ -73,27 +73,29 @@ Email: contact@startarcoins.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .trust-badge {
-            width: 200px;
-            height: 200px;
-            background-color: gold;
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(145deg, #f3e5ab, #c8a415);
             border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
             color: white;
             font-weight: bold;
-            font-size: 18px;
+            font-size: 14px;
             text-align: center;
-            box-shadow: 0 0 10px gold;
+            box-shadow: 0 0 10px #c8a415;
             margin: 20px auto;
+            border: 5px solid #af911a;
         }
     </style>
 </head>
 <body>
 
 <div class="trust-badge">
-    100% Trust Us <br> Secure Website<br> STRB
+    100% Trust Us <br> Secure Website<br> STRB -Startarcoins.com
 </div>
 
 </body>
 </html>
+
