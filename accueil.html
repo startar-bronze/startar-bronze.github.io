@@ -15,22 +15,25 @@
             background-color: #d4af37;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding: 20px;
         }
         header img {
-            width: 80px;
-            vertical-align: middle;
+            width: 120px;
         }
         .content {
-            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             margin: 20px;
         }
         .crypto-selector {
-            margin: 20px 0;
+            text-align: center;
+            margin: 20px;
         }
         .crypto-selector img {
             width: 100px;
             cursor: pointer;
+            margin-bottom: 10px;
         }
         footer {
             background-color: #333;
@@ -50,20 +53,21 @@
 <body>
 
 <header>
-    <img src="logo-strb.png" alt="STRB Logo">
-    <h1>Startar Bronze</h1>
+    <a href="https://startar-bronze.github.io/">
+        <img src="https://raw.githubusercontent.com/startar-bronze/startar-bronze.github.io/main/STRRetSTRB.jpg" alt="STRB and STRR Logo">
+    </a>
 </header>
 
 <div class="content">
-    <div id="google_translate_element"></div>
-    <h2>Choose your crypto</h2>
     <div class="crypto-selector">
         <a href="https://startar-bronze.github.io/">
-            <img src="https://github.com/user-attachments/assets/73dc2665-0f6c-404b-b555-3c4d827f23ce" alt="STRB LOGO" height="100" width="100">
+            <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STRRetSTRB.jpg" alt="STRB Logo">
             <div>STRB</div>
         </a>
-        <a href="#strr-development">
-            <img src="logo-strr.png" alt="STRR">
+    </div>
+    <div class="crypto-selector">
+        <a href="strr-development.html">
+            <img src="https://raw.githubusercontent.com/startar-bronze/startar-bronze.github.io/main/strr.jpg" alt="STRR Logo">
             <div>STRR</div>
         </a>
     </div>
