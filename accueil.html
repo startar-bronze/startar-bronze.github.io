@@ -10,6 +10,7 @@
             background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            color: #333;
         }
         header {
             background-color: #d4af37;
@@ -20,20 +21,27 @@
         header img {
             width: 120px;
         }
+        header h1 {
+            font-size: 24px;
+            margin: 10px 0 0;
+        }
         .content {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+            text-align: center;
             margin: 20px;
         }
         .crypto-selector {
-            text-align: center;
+            display: inline-block;
             margin: 20px;
+            text-align: center;
         }
         .crypto-selector img {
             width: 100px;
             cursor: pointer;
             margin-bottom: 10px;
+        }
+        .crypto-selector div {
+            font-weight: bold;
+            font-size: 16px;
         }
         footer {
             background-color: #333;
@@ -56,12 +64,15 @@
     <a href="https://startar-bronze.github.io/">
         <img src="https://raw.githubusercontent.com/startar-bronze/startar-bronze.github.io/main/STRRetSTRB.jpg" alt="STRB and STRR Logo">
     </a>
+    <h1>STARTARCOINS</h1>
 </header>
 
 <div class="content">
+    <div id="google_translate_element"></div>
+    <h2>Choose your crypto / Choisissez votre crypto</h2>
     <div class="crypto-selector">
         <a href="https://startar-bronze.github.io/">
-            <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STRRetSTRB.jpg" alt="STRB Logo">
+            <img src="https://raw.githubusercontent.com/startar-bronze/startar-bronze.github.io/main/STRRetSTRB.jpg" alt="STRB Logo">
             <div>STRB</div>
         </a>
     </div>
