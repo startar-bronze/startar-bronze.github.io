@@ -1,5 +1,20 @@
 ## Startar Bronze (STRB)
 
+<div style="background-color: red; color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; text-align: center; font-weight: bold;">
+    OFFICIAL MESSAGE FROM STARTARBRONZE<br>
+    ABOUT OUR SMARTCONTRACT: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6 (METAMASK)<br>
+    ALERT, ALERT TO ALL, THE STRB CONTRACT TOKEN HAS BEEN VICTIM OF HACKERS WHO HAVE CORRUPTED THE MAIN WALLET.<br>
+    STOP ANY TRADE OR ANY OTHER TRANSACTION WITH THIS WALLET WHILE WE RESOLVE THE STRB SITUATION.<br>
+    OFFICIAL MESSAGE FROM STARTARCOINS.<br>
+    WE ARE DOING OUR BEST TO RESOLVE THE SITUATION AND WILL GIVE YOU THE NEW STRB SMART CONTRACT ADDRESS. THANK YOU.<br><br>
+    MESSAGE OFFICIEL DU STARTARBRONZE<br>
+    A PROPOS DE NOTRE SMARTCONTRAT: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6 (METAMASK)<br>
+    ALERTE, ALERTE A TOUS, LE TOKEN CONTRAT DU STRB A ETE VICTIME DE HACKER QUI ONT CORROMPU LE WALLET PRINCIPAL.<br>
+    STOPPEZ TOUT TRADE OU TOUTE AUTRE TRANSACTION AVEC CE WALLET LE TEMPS QUE NOUS RESOLVONS LA SITUATION DU STRB.<br>
+    MESSAGE OFFICIEL DE STARTARCOINS.<br>
+    NOUS FAISONS DE NOTRE MIEUX DE RESOUDRE LA SITUATION ET ALLONS VOUS DONNER LE NOUVEAU SMART CONTRAT ADRESS DU STRB. MERCI.
+</div>
+
 <div id="google_translate_element"></div>
    <script type="text/javascript">
      function googleTranslateElementInit() {
@@ -55,47 +70,4 @@ See us on [Bscan](https://bscscan.com/token/0x550a5e9c90cc238dd1afd88a0680b4feeb
 
 [Tokpie](https://tokpie.io/blog/startar-bronze/?fbclid=IwY2xjawGmxS9leHRuA2FlbQIxMAABHQyo3x6JASoHla3vGUm1B3q-TCTOUVGTDHJCt6SJkS7UV-RBAZ-lpfFzdw_aem_oBDjyM-u8f2w9qW2DPuMVA#How_to_buy_STRB_with_Bank_Card_or_Apple_Pay)
 
-[ico holder](https://icoholder.com/en/startarcoins-1015058?fbclid=IwY2xjawGmxURleHRuA2FlbQIxMAABHYsQU6p9cU7lGZXTP0km50nLdhI9_34DSgrGCdfExLxQ7RoB95wI1D1k5g_aem_PRKy3LcHli0JQTMCLtH8Rw)
-
-[Thebittimes](https://thebittimes.com/token-STRB-BSC-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6.html?fbclid=IwY2xjawGmxYtleHRuA2FlbQIxMAABHVjk6Zw4cJeGCxwY2FMPJ8Uunf8qfGbajiwldQRlL4cFo9lFwCTRMxUvjg_aem_H2Up2aEg9wz2AxqqOtUNiA)
-
-[Icolink](https://icolink.com/ico-startar-bronze.html?fbclid=IwY2xjawGmxYJleHRuA2FlbQIxMAABHYru5aKHwFYZddYZdG63B2p2Oz3vj5LF0NyMSy3y3Y7kIhZogCLjFIzgDQ_aem_uPf-lUV9grAtPLAw7mxu4Q)
-
-## Contact
-Email: contact@startarcoins.com 
-
-<img src="https://github.com/user-attachments/assets/73dc2665-0f6c-404b-b555-3c4d827f23ce" alt="STRB LOGO" height="100" width="100">
-
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .trust-badge {
-            width: 150px;
-            height: 150px;
-            background: linear-gradient(145deg, #f3e5ab, #c8a415);
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            font-weight: bold;
-            font-size: 14px;
-            text-align: center;
-            box-shadow: 0 0 10px #c8a415;
-            margin: 20px auto;
-            border: 5px solid #af911a;
-        }
-    </style>
-</head>
-<body>
-
-<div class="trust-badge">
-    100% Trust Us <br> Secure Website<br> STRB -Startarcoins.com
-</div>
-
-</body>
-</html>
-
+[ico holder](https://icoholder.com/en/startarcoins-1015058?fbclid=IwY2xjawGmxURleHRuA2FlbQIxMAABHYsQU6p9cU7lGZXTP0km50nLdhI9_34DSgrGCdfExLxQ7RoB95wI1D1k5g_aem_PR
