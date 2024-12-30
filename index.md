@@ -86,7 +86,8 @@
 
 <iframe width="100%" height="1000" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/bnb-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?theme=light&padding=16&chart=1&trades=1"></iframe>
 
-<h2 class="STARTER BRONZE (STRB) is a trademark under copyright (c)</h2>
+
+<p><strong>STARTER BRONZE (STRB) is a trademark under copyright (c) </strong></p>
 
 <h2 class="highlight">Nouveau smart contrat en cours de création et d'audit, avec nouveau roadmap et whitepaper pour le StartarBronze !</h2>
 
