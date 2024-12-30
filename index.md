@@ -1,73 +1,97 @@
-## Startar Bronze (STRB)
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB5H2DRHHP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YB5H2DRHHP');
+    </script>
 
-<div style="background-color: red; color: white; padding: 20px; border-radius: 10px; margin-bottom: 20px; text-align: center; font-weight: bold;">
-    OFFICIAL MESSAGE FROM STARTARBRONZE<br>
-    ABOUT OUR SMARTCONTRACT: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6 (METAMASK)<br>
-    ALERT, ALERT TO ALL, THE STRB CONTRACT TOKEN HAS BEEN VICTIM OF HACKERS WHO HAVE CORRUPTED THE MAIN WALLET.<br>
-    STOP ANY TRADE OR ANY OTHER TRANSACTION WITH THIS WALLET WHILE WE RESOLVE THE STRB SITUATION.<br>
-    OFFICIAL MESSAGE FROM STARTARCOINS.<br>
-    WE ARE DOING OUR BEST TO RESOLVE THE SITUATION AND WILL GIVE YOU THE NEW STRB SMART CONTRACT ADDRESS. THANK YOU.<br><br>
-    MESSAGE OFFICIEL DU STARTARBRONZE<br>
-    A PROPOS DE NOTRE SMARTCONTRAT: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6 (METAMASK)<br>
-    ALERTE, ALERTE A TOUS, LE TOKEN CONTRAT DU STRB A ETE VICTIME DE HACKER QUI ONT CORROMPU LE WALLET PRINCIPAL.<br>
-    STOPPEZ TOUT TRADE OU TOUTE AUTRE TRANSACTION AVEC CE WALLET LE TEMPS QUE NOUS RESOLVONS LA SITUATION DU STRB.<br>
-    MESSAGE OFFICIEL DE STARTARCOINS.<br>
-    NOUS FAISONS DE NOTRE MIEUX DE RESOUDRE LA SITUATION ET ALLONS VOUS DONNER LE NOUVEAU SMART CONTRAT ADRESS DU STRB. MERCI.
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startar Bronze (STRB)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .alert-box {
+            background-color: #28a745; /* Green for reassurance */
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .highlight {
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            background: linear-gradient(45deg, #ff0000, #ffff00, #00ff00, #0000ff, #ff00ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: colorChange 5s infinite;
+        }
+        @keyframes colorChange {
+            0% { background-position: 0%; }
+            100% { background-position: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="alert-box">
+    🔴 <strong>MESSAGE OFFICIEL / OFFICIAL MESSAGE</strong> 🔴<br><br>
+    <strong>FR</strong><br>
+    📢 Chers détenteurs de STRB, utilisez désormais notre nouvelle adresse :<br>
+    👉 <strong>0x22C4B60Eae32A42b7518c7F0044d9592fb0882c2</strong><br>
+    L’ancienne adresse <strong>0x19bEE65450446606e41a2D6BDdD916051ca3ad6c</strong> sera bientôt remplacée.<br><br>
+    🔒 Un nouveau smart contract sécurisé arrive avec audit, whitepaper et roadmap !<br>
+    Merci pour votre confiance.<br><br>
+    <strong>EN</strong><br>
+    📢 Dear STRB holders, use our new address:<br>
+    👉 <strong>0x22C4B60Eae32A42b7518c7F0044d9592fb0882c2</strong><br>
+    The old address <strong>0x19bEE65450446606e41a2D6BDdD916051ca3ad6c</strong> will soon be replaced.<br><br>
+    🔒 A secure new smart contract is coming with audit, whitepaper, and roadmap!<br>
+    Thank you for your trust.<br>
 </div>
 
 <div id="google_translate_element"></div>
-   <script type="text/javascript">
-     function googleTranslateElementInit() {
-       new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr'}, 'google_translate_element');
-     }
-   </script>
-   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-   
-STARTAR BRONZE (STRB) is a BSCAN (BEP20) cryptocurrency managed by **Groupe Business Therapie** company.
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr'}, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-How to add STRB to your wallet like METAMASK, follow this <a href="https://www.youtube.com/watch?v=LMwK0KNMLu8" style="color:blue;">video link</a>.
+<p>STARTAR BRONZE (STRB) is a BSCAN (BEP20) cryptocurrency managed by <strong>Groupe Business Therapie</strong> company.</p>
+<p>How to add STRB to your wallet like METAMASK, follow this <a href="https://www.youtube.com/watch?v=LMwK0KNMLu8" style="color:blue;">video link</a>.</p>
 
-StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the STARTAR (STRR is under development) token.
+<p>StartarBronze (STRB) is part of the STARTARCOINS Group, which includes the STARTAR (STRR is under development) token.</p>
 
-**STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6**
+<p><strong>STRB Smart contract address: 0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6</strong></p>
 
 <iframe width="100%" height="1000" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/bnb-0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?theme=light&padding=16&chart=1&trades=1"></iframe>
 <span style="color:green;">You can purchase on the link below or click on buy button.</span>
 
-**[STRB Bscan address contract](https://bscscan.com/address/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxplleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug#readContract)**
+<p><a href="https://bscscan.com/address/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxplleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug#readContract"><strong>STRB Bscan address contract</strong></a></p>
 
 <iframe width=480 height="640" frameBorder="0" scrolling="no" src="https://coinbrain.com/embed/trade?theme=light&padding=16&chainId=56&inputAddress=0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE&outputAddress=0x550a5e9c90cC238Dd1AFD88A0680b4fEeB5F8Dd6"></iframe>
 
-## Other links:
+<h2 class="highlight">Nouveau smart contrat en cours de création et d'audit, avec nouveau roadmap et whitepaper pour le StartarBronze !</h2>
 
-Get StartarBronze Prediction at this [link](https://coincodex.com/crypto/startar-bronze/price-prediction/?fbclid=IwY2xjawGmwrpleHRuA2FlbQIxMQABHXgyFwN3tl0COq_jOXieyPQW0f8ihKsez3O08KKKy9M7dSsoy7_Qk9uc_Q_aem_eQWwS1eYJJ6BcmdmqBBjMA)
-
-For real-time infos, follow us on Facebook (META) at this [link](https://www.facebook.com/startarcoins/)
-
-Buy and SELL STRB on TOKPIE at this [link](https://tokpie.com/dashboard/make_request/strb-usdt/)
-
-Read STRB Legal opinion at this [link](https://drive.google.com/file/d/1_zCA8Il_autHQbo-YBbsby2Yruqluvip/view?usp=sharing)
-
-[STRB audit](https://www.dropbox.com/scl/fi/0vac3w2efxqcnd3qhfpju/startarbronzeaudit.pdf?e=1&fbclid=IwY2xjawGmxVhleHRuA2FlbQIxMAABHQyo3x6JASoHla3vGUm1B3q-TCTOUVGTDHJCt6SJkS7UV-RBAZ-lpfFzdw_aem_oBDjyM-u8f2w9qW2DPuMVA&rlkey=jjl59kvp1jru50zm0fulfpv4t&st=ybnvdp7e&dl=0)
-
-See us on [Bscan](https://bscscan.com/token/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxOpleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oHG08ZayA34?autoplay=1&loop=1&playlist=oHG08ZayA34" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-## They Talking about us:
-
-[Coin market Cap (CMC)](https://coinmarketcap.com/dexscan/bsc/0xec84acc430f9628d8993644880fe2b828fc196fd/?fbclid=IwY2xjawGmwyxleHRuA2FlbQIxMAABHfY-JRmYwFUQu4hbGd9gWNUAWrjyMFPvw9EpBW8hzOP9kaJw1gmI4YfQ2A_aem_ttmhOqi_CNjDAz7rsLk5Ng)
-
-[Kucoin](https://www.kucoin.com/fr/price/STRB?fbclid=IwY2xjawGmwypleHRuA2FlbQIxMAABHVjk6Zw4cJeGCxwY2FMPJ8Uunf8qfGbajiwldQRlL4cFo9lFwCTRMxUvjg_aem_H2Up2aEg9wz2AxqqOtUNiA)
-
-[Coin Paprika](https://coinpaprika.com/de/coin/strb-startar-bronze/?fbclid=IwY2xjawGmwyhleHRuA2FlbQIxMAABHfY-JRmYwFUQu4hbGd9gWNUAWrjyMFPvw9EpBW8hzOP9kaJw1gmI4YfQ2A_aem_ttmhOqi_CNjDAz7rsLk5Ng)
-
-[Token Insight](https://tokeninsight.com/en/coins/startarbronze/overview?fbclid=IwY2xjawGmxD1leHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug)
-
-[Coinmooner](https://coinmooner.com/coin/startarbronze-strb?fbclid=IwY2xjawGmxFNleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug)
-
-[Pancakeswap](https://pancakeswap.finance/info/token/0x550a5e9c90cc238dd1afd88a0680b4feeb5f8dd6?fbclid=IwY2xjawGmxPFleHRuA2FlbQIxMAABHXu5c00aJtvXVvVeojSaIQXe94oS_SgddBcbX8nXIYdxm_jE0Z4DxI5dkQ_aem_BYErkMcAFpR3t9yj4HP1Ug)
-
-[Tokpie](https://tokpie.io/blog/startar-bronze/?fbclid=IwY2xjawGmxS9leHRuA2FlbQIxMAABHQyo3x6JASoHla3vGUm1B3q-TCTOUVGTDHJCt6SJkS7UV-RBAZ-lpfFzdw_aem_oBDjyM-u8f2w9qW2DPuMVA#How_to_buy_STRB_with_Bank_Card_or_Apple_Pay)
-
-[ico holder](https://icoholder.com/en/startarcoins-1015058?fbclid=IwY2xjawGmxURleHRuA2FlbQIxMAABHYsQU6p9cU7lGZXTP0km50nLdhI9_34DSgrGCdfExLxQ7RoB95wI1D1k5g_aem_PR
+</body>
+</html>
