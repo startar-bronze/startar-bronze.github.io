@@ -34,6 +34,11 @@
             font-size: 1.2rem;
         }
 
+        header img {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
         .main-content {
             text-align: center;
             padding: 20px;
@@ -87,6 +92,66 @@
             color: #555;
         }
 
+        .parallax {
+            background-image: url('https://via.placeholder.com/1920x1080');
+            height: 300px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 20px 0;
+        }
+
+        .news-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-top: 2px solid #0056b3;
+            border-bottom: 2px solid #0056b3;
+        }
+
+        .news-section h2 {
+            color: #0056b3;
+        }
+
+        .faq-section {
+            text-align: left;
+            padding: 20px;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            color: #0056b3;
+        }
+
+        .faq-item {
+            margin: 10px 0;
+        }
+
+        .faq-item h3 {
+            color: #333;
+        }
+
+        .cta-buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .cta-buttons a {
+            text-decoration: none;
+            color: white;
+            background-color: #0056b3;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+
+        .cta-buttons a:hover {
+            background-color: #003d80;
+        }
+
         footer {
             background-color: #333;
             color: white;
@@ -115,6 +180,7 @@
 <body>
 
 <header>
+    <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STARTARCOINS%20LOGO%202.png?raw=true" alt="Startarcoins Logo">
     <h1>STARTARCOINS CRYPTO HUB</h1>
     <p>Your Gateway to Secure and Innovative Cryptocurrency Solutions</p>
     <div id="google_translate_element"></div>
@@ -141,6 +207,35 @@
             </a>
         </div>
     </div>
+</div>
+
+<div class="parallax"></div>
+
+<section class="news-section">
+    <h2>News and Updates</h2>
+    <p>Prochaines mises à jour. Projets en cours (NSTRB, KhacN, etc.). Événements ou collaborations.</p>
+</section>
+
+<section class="faq-section">
+    <h2>FAQ</h2>
+    <div class="faq-item">
+        <h3>What is NSTRB?</h3>
+        <p>The New Startar Bronze (NSTRB) is a BEP20 cryptocurrency designed to allow the migration of STRB tokens while maintaining value, with a decentralized governance system and exchange fees benefiting the community.</p>
+    </div>
+    <div class="faq-item">
+        <h3>When was NSTRB launched?</h3>
+        <p>NSTRB was officially deployed on BSCScan on January 8, 2025.</p>
+    </div>
+    <div class="faq-item">
+        <h3>How can I add KHACN to my wallet?</h3>
+        <p>You can add KHACN to your wallet by adding a custom token and using the official contract address available on the website.</p>
+    </div>
+</section>
+
+<div class="cta-buttons">
+    <a href="https://www.facebook.com/startarcoins/" target="_blank">Join Us on Facebook</a>
+    <a href="https://x.com/xforstartarcoin" target="_blank">Follow Us on X</a>
+    <a href="http://t.me/gbtcryptohub" target="_blank">Join Our Telegram</a>
 </div>
 
 <footer>
