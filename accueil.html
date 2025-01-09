@@ -1,154 +1,141 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YB5H2DRHHP"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-YB5H2DRHHP');
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startar Bronze</title>
+    <meta name="description" content="Welcome to Startarcoins Crypto Hub. Explore secure, innovative solutions for cryptocurrencies.">
+    <meta name="keywords" content="Startarcoins, Crypto Hub, Cryptocurrency, Blockchain, Security">
+    <meta name="author" content="Groupe Business Therapie">
+    <title>Startarcoins Crypto Hub</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
             color: #333;
         }
+
         header {
-            background-color: #d4af37;
+            background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 20px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        header img {
-            width: 120px;
-        }
+
         header h1 {
-            font-size: 24px;
-            margin: 10px 0 0;
+            margin: 0;
+            font-size: 2.5rem;
         }
-        .alert-box {
-            background-color: #28a745;
-            color: white;
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2rem;
+        }
+
+        .main-content {
+            text-align: center;
             padding: 20px;
-            margin: 20px;
+        }
+
+        .main-content h2 {
+            margin: 20px 0;
+            font-size: 2rem;
+            color: #4CAF50;
+        }
+
+        .crypto-cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .crypto-card {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 10px;
+            overflow: hidden;
             text-align: center;
-            font-size: 16px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            transition: transform 0.3s;
         }
-        .content {
-            text-align: center;
-            margin: 20px;
+
+        .crypto-card:hover {
+            transform: scale(1.05);
         }
-        .crypto-selector {
-            display: inline-block;
-            margin: 20px 40px;
-            text-align: center;
+
+        .crypto-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
         }
-        .crypto-selector img {
-            width: 100px;
-            cursor: pointer;
-            margin-bottom: 10px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px 10px rgba(255, 215, 0, 0.7);
+
+        .crypto-card h3 {
+            margin: 15px 0;
+            font-size: 1.5rem;
+            color: #4CAF50;
         }
-        .crypto-selector div {
-            font-weight: bold;
-            font-size: 16px;
-            color: black;
+
+        .crypto-card p {
+            padding: 0 10px 20px;
+            font-size: 1rem;
+            color: #555;
         }
-        .video-container {
-            margin: 40px 0;
-        }
+
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: relative;
-            width: 100%;
-            bottom: 0;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
         }
-        a {
-            color: white;
+
+        footer a {
+            color: #4CAF50;
             text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <a href="https://startar-bronze.github.io/">
-        <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STRRetSTRB.jpg?raw=true" alt="STRB and STRR Logo">
-    </a>
-    <h1>WELCOME TO STARTARCOINS</h1>
+    <h1>STARTARCOINS CRYPTO HUB</h1>
+    <p>Your Gateway to Secure and Innovative Cryptocurrency Solutions</p>
 </header>
 
-<div class="content">
-    <div id="google_translate_element"></div>
-    <h2>Choose your crypto / Choisissez votre crypto</h2>
-    <div class="crypto-selector">
-        <a href="https://startar-bronze.github.io/">
-            <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STRB%20LOGO.jpg?raw=true" alt="STRB Logo">
-            <div>STRB</div>
-        </a>
-    </div>
-    <div class="crypto-selector">
-        <a href="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/strr.jpg?raw=true">
-            <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/strr.jpg?raw=true" alt="STRR Logo">
-            <div>STRR</div>
-        </a>
-    </div>
-
-    <div class="alert-box">
-        <p>
-            <strong>OFFICIAL MESSAGE FROM STARTARCOINS</strong><br>
-            Dear STRB (StartarBronze) holders,<br>
-            As we prepare to migrate to a new, secure smart contract that will enable STRB token swaps and implement a burn mechanism for the old tokens, we would like to share the following updates:<br><br>
-            <strong>New address for interactions:</strong> You can now interact exclusively with the new address:<br>
-            <strong>0x22C4B60Eae32A42b7518c7F0044d9592fb0882c2</strong><br><br>
-            <strong>Current STRB address:</strong> The current address to add STRB to your wallet, <strong>0x19bEE65450446606e41a2D6BDdD916051ca3ad6c</strong>, remains temporarily active.<br>
-            However, this address will gradually be replaced by the new smart contract at:<br>
-            <strong>0x22C4B60Eae32A42b7518c7F0044d9592fb0882c2</strong>.<br><br>
-            <strong>Migration process:</strong> During the implementation of the new smart contract, a swap mechanism will be available to migrate your tokens from the old address to the new secure contract.<br><br>
-            <strong>MESSAGE OFFICIEL DE STARTARCOINS</strong><br>
-            Chers détenteurs de STRB (StartarBronze),<br>
-            Dans l’attente de la migration vers un nouveau smart contract sécurisé, qui permettra à tous les détenteurs de STRB d’effectuer le swap de leurs tokens actuels et de participer au mécanisme de burn des anciens tokens, nous vous informons de la procédure suivante :<br><br>
-            <strong>Nouvelle adresse pour interactions :</strong> Vous pouvez désormais interagir uniquement avec la nouvelle adresse suivante :<br>
-            <strong>0x22C4B60Eae32A42b7518c7F0044d9592fb0882c2</strong><br><br>
-            <strong>Ancienne adresse STRB :</strong> L’adresse actuelle pour rajouter le STRB dans votre wallet, <strong>0x19bEE65450446606e41a2D6BDdD916051ca3ad6c</strong>, reste active temporairement.<br>
-            Cependant, cette adresse sera progressivement remplacée par le nouveau smart contract.<br><br>
-            Merci pour votre confiance et votre fidélité.<br>
-            <strong>StartarCoins Team</strong>
-        </p>
-    </div>
-
-    <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-zM25JLceUA?playlist=-zM25JLceUA&loop=1&autoplay=1" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+<div class="main-content">
+    <h2>Choose Your Crypto</h2>
+    <div class="crypto-cards">
+        <div class="crypto-card">
+            <img src="https://via.placeholder.com/300x200" alt="Crypto Solution">
+            <h3>Crypto Solution</h3>
+            <p>Discover advanced crypto tools for secure and innovative solutions.</p>
+        </div>
+        <div class="crypto-card">
+            <img src="https://via.placeholder.com/300x200" alt="Crypto Currency">
+            <h3>Crypto Currency</h3>
+            <p>Experience digital technology with seamless cryptocurrency integration.</p>
+        </div>
+        <div class="crypto-card">
+            <img src="https://via.placeholder.com/300x200" alt="Digital Security">
+            <h3>Digital Security</h3>
+            <p>Secure your digital assets with cutting-edge blockchain technology.</p>
+        </div>
     </div>
 </div>
 
 <footer>
-    © Startarcoins. Owned by Groupe Business Therapie 2024. <br>
-    Email: <a href="mailto:contact@startarcoins.com">contact@startarcoins.com</a>
+    <p>&copy; Startarcoins. Owned by <strong>Groupe Business Therapie</strong></p>
+    <p>Email: <a href="mailto:contact@startarcoins.com">contact@startarcoins.com</a></p>
 </footer>
-
-<script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'fr'}, 'google_translate_element');
-    }
-</script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
 </html>
