@@ -1,0 +1,22 @@
+{
+  "name": "Startarcoins Crypto Hub",
+  "short_name": "Startarcoins",
+  "description": "Discover Startarcoins Crypto Hub: A platform for new cryptocurrency projects like NSTRB and KHACN. Invest smartly in the future of blockchain and DeFi.",
+  "start_url": "/accueil.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#e6f7ff",
+  "theme_color": "#0056b3",
+  "icons": [
+    {
+      "src": "https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STARTARCOINS%20LOGO%202.png?raw=true",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://github.com/startar-bronze/startar-bronze.github.io/blob/main/STARTARCOINS%20LOGO%202.png?raw=true",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
