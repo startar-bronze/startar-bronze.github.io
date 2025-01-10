@@ -20,13 +20,13 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e6f7ff; /* French blue */
+            background-color: #e6f7ff;
             color: #333;
             overflow-x: hidden;
         }
 
         header {
-            background-color: #0056b3; /* Dark blue */
+            background-color: #0056b3;
             color: white;
             text-align: center;
             padding: 20px 10px;
@@ -51,130 +51,28 @@
 
         .main-content {
             text-align: center;
-            padding: 20px 20px 0;
-        }
-
-        .main-content h2 {
-            margin: 20px 0;
-            font-size: 2rem;
-            color: #0056b3;
-        }
-
-        .crypto-cards {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            margin: 10px 0 30px;
-        }
-
-        .crypto-card {
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-            text-align: center;
-            width: 300px;
-            transition: transform 0.3s;
-            position: relative;
-        }
-
-        .crypto-card:hover {
-            transform: scale(1.05);
-        }
-
-        .crypto-card img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            box-shadow: 0 0 15px 5px gold; /* Gold aura */
-        }
-
-        .crypto-card h3 {
-            margin: 15px 0;
-            font-size: 1.5rem;
-            color: #0056b3;
-        }
-
-        .crypto-card p {
-            padding: 0 10px 20px;
-            font-size: 1rem;
-            color: #555;
-        }
-
-        .news-section {
-            background-color: #f9f9f9;
             padding: 20px;
-            margin: 0 20px 40px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
         }
 
-        .news-section h2 {
-            font-size: 1.8rem;
-            color: #0056b3;
-            margin-bottom: 15px;
-        }
-
-        .faq-section {
-            background-color: white;
-            padding: 20px;
-            margin: 0 20px 40px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-
-        .faq-section h2 {
-            font-size: 1.8rem;
-            color: #0056b3;
-            margin-bottom: 15px;
-        }
-
-        .faq-section details {
-            margin-bottom: 15px;
-        }
-
-        .faq-section summary {
-            font-weight: bold;
-            color: #333;
-            cursor: pointer;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
+        .pwa-prompt {
+            display: none;
             text-align: center;
+            background-color: #e6f7ff;
             padding: 20px;
-            margin-top: 40px;
-            font-size: 0.9rem;
+            border: 1px solid #ccc;
+            margin: 20px;
         }
 
-        footer a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            text-decoration: underline;
-        }
-
-        .cta-buttons {
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .cta-buttons a {
+        .pwa-prompt button {
             background-color: #0056b3;
             color: white;
+            border: none;
             padding: 10px 20px;
-            margin: 5px;
-            text-decoration: none;
+            cursor: pointer;
             border-radius: 5px;
-            transition: background-color 0.3s;
-            display: inline-block;
         }
 
-        .cta-buttons a:hover {
+        .pwa-prompt button:hover {
             background-color: #003f7d;
         }
 
@@ -188,6 +86,23 @@
         .badge img {
             width: 100px;
             height: 100px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
     <script type="text/javascript">
@@ -207,56 +122,12 @@
 </header>
 
 <div class="main-content">
-    <h2>Choose Your Crypto</h2>
-    <div class="crypto-cards">
-        <div class="crypto-card">
-            <a href="https://khacn.startarcoins.com">
-                <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/PNG%20KHAC%20LOGO.png?raw=true" alt="KHAC Logo">
-                <h3>KharYsma Coins</h3>
-                <p>KHACN, a ERC20 innovative crypto.</p>
-            </a>
-        </div>
-
-        <div class="crypto-card">
-            <a href="https://nstrb.startarcoins.com">
-                <img src="https://github.com/startar-bronze/startar-bronze.github.io/blob/main/NEW%20STRB%20STARTARBRONZE%20NSTRB.jpg?raw=true" alt="NSTRB Logo">
-                <h3>New Startar Bronze</h3>
-                <p>NSTRB, a BEP20 crypto.</p>
-            </a>
-        </div>
-    </div>
+    <!-- Contenu principal ici -->
 </div>
 
-<div class="news-section">
-    <h2>News and Upcoming Updates</h2>
-    <p>Ongoing projects: NSTRB, KhacN, and more.</p>
-    <p>The StartarBronze is becoming NSTRB. The old STRB is currently still tradable at the usual links but will be progressively replaced by NSTRB. Visit the GitHub page above to learn more.</p>
-</div>
-
-<div class="faq-section">
-    <h2>Frequently Asked Questions (FAQ)</h2>
-    <details>
-        <summary>What is KharYsma Coins (KHACN)?</summary>
-        <p>KharYsma Coins (KHACN) is an ERC20 token designed to revolutionize decentralized finance (DeFi). With advanced features like liquidity management, automated market making, and multi-platform integration, KHACN bridges the gap between traditional economic models and modern DeFi innovations.</p>
-    </details>
-    <details>
-        <summary>When was NSTRB launched?</summary>
-        <p>NSTRB was officially deployed on BSCScan on January 8, 2025.</p>
-    </details>
-    <details>
-        <summary>How can I participate in the NSTRB airdrop?</summary>
-        <p>Add the NSTRB token to your wallet and complete the <a href="https://forms.gle/QuC2KXu4mXv32dRRA">Google Form</a> to register your wallet address.</p>
-    </details>
-    <details>
-        <summary>What is NSTRB?</summary>
-        <p>The New StartarBronze (NSTRB), launched on January 8, 2025, is a BEP20 token designed to enable the migration of STRB tokens. It offers decentralized governance, maintains value parity with STRB, and supports community-driven projects.</p>
-    </details>
-</div>
-
-<div class="cta-buttons">
-    <a href="https://www.facebook.com/startarcoins/">Follow us on Facebook</a>
-    <a href="https://x.com/xforstartarcoin">Follow us on Meta</a>
-    <a href="http://t.me/gbtcryptohub">Join our Telegram</a>
+<div class="pwa-prompt">
+    <p>Save Startarcoins Crypto Hub to your home screen for easy access.</p>
+    <button id="addToHomeScreen">Add to Home Screen</button>
 </div>
 
 <div class="badge">
@@ -265,25 +136,27 @@
 
 <footer>
     <p>&copy; Startarcoins. Owned by <strong>Groupe Business Therapie</strong></p>
-    <p>Startarcoins services are not available in prohibited jurisdictions.</p>
     <p>Email: <a href="mailto:contact@startarcoins.com">contact@startarcoins.com</a></p>
 </footer>
 
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/677fe54aaf5bfec1dbe930bd/1ih5pfbb0';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+<script>
+    let deferredPrompt;
+    window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        document.querySelector('.pwa-prompt').style.display = 'block';
+        document.getElementById('addToHomeScreen').addEventListener('click', () => {
+            deferredPrompt.prompt();
+            deferredPrompt.userChoice.then((choiceResult) => {
+                if (choiceResult.outcome === 'accepted') {
+                    console.log('PWA installation accepted');
+                }
+                deferredPrompt = null;
+            });
+        });
+    });
 </script>
-<!--End of Tawk.to Script-->
 
-<!--Start of Service Worker Registration-->
 <script>
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/service-worker.js')
@@ -294,7 +167,6 @@ s0.parentNode.insertBefore(s1,s0);
         });
     }
 </script>
-<!--End of Service Worker Registration-->
 
 </body>
 </html>
