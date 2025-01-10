@@ -9,9 +9,10 @@ const urlsToCache = [
 
 // Installation du service worker
 self.addEventListener("install", (event) => {
+  console.log("[Service Worker] Install event");
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log("Opened cache");
+      console.log("[Service Worker] Caching all necessary files");
       return cache.addAll(urlsToCache);
     })
   );
@@ -19,12 +20,13 @@ self.addEventListener("install", (event) => {
 
 // Activation du service worker
 self.addEventListener("activate", (event) => {
+  console.log("[Service Worker] Activate event");
   event.waitUntil(
     caches.keys().then((cacheNames) =>
       Promise.all(
         cacheNames.map((cache) => {
           if (cache !== CACHE_NAME) {
-            console.log("Deleting old cache:", cache);
+            console.log("[Service Worker] Deleting old cache:", cache);
             return caches.delete(cache);
           }
         })
@@ -35,8 +37,14 @@ self.addEventListener("activate", (event) => {
 
 // Interception des requêtes réseau
 self.addEventListener("fetch", (event) => {
+  console.log("[Service Worker] Fetch event for:", event.request.url);
   event.respondWith(
     caches.match(event.request).then((response) => {
+      if (response) {
+        console.log("[Service Worker] Serving cached:", event.request.url);
+      } else {
+        console.log("[Service Worker] Fetching from network:", event.request.url);
+      }
       return response || fetch(event.request);
     })
   );
